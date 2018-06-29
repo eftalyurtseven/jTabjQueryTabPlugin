@@ -11,7 +11,7 @@ You can use;
                 <ul>
                     <li><a href="#">First Section</a></li>
                     <li><a href="#">Second Section</a></li>
-                    <li><a href="#">Third Section [ AJAX ]</a></li>
+                    <li><a href="#">Third Section</a></li>
                     <li><a href="#">Fourth Section</a></li>
                     <div class="clearfix"></div>
                 </ul>
@@ -78,4 +78,48 @@ You can use jQuery UI Effects, jUI set to TRUE and choise your effect!
       jAnimationDuration: 200
   });
 ```
-### 
+### Upload the data with AJAX!
+You can use AJAX load. Change HTML Template;
+Set li attribute data-ajax="true" and fill the ajax data!
+1.Ajax Type: post/get
+2.Ajax URI: someurl.html / someurl.php etc.
+3.Loaded: false - default
+4.Ajax Data: Send data from file
+
+```html
+        <div id="tabContainer">
+
+            <div class="tabTitle">
+                <ul>
+                    <li><a href="#">First Section</a></li>
+                    <li><a href="#">Second Section</a></li>
+                    <li data-ajax="true" data-ajaxType="post" data-ajaxURI="ajax.php" data-loaded="false" data-ajaxData="data=data"><a href="#">Third Section [ AJAX ]</a></li>
+                    <li><a href="#">Fourth Section</a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+
+            <div id="tabContents">
+                <div class="tabContent">
+                    First Section
+                </div>
+
+                <div class="tabContent">
+                    Second Section
+                </div>
+
+                <div class="tabContent">
+                    Third Section [ AJAX ]
+                </div>
+
+                <div class="tabContent">
+                    Fourth Section
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+```
+
+
