@@ -28,3 +28,16 @@ You can use;
         jAnimationDuration: 300,
   });
 ```
+### jQuery UI Effect Usage
+You can use jQuery UI Effects, jUI set to TRUE and choise your effect!
+```javascript
+  $("#tabContainer").jTab({
+      jTab: '.tabTitle ul', 
+      jTabElem: 'li',
+      jActiveClass: 'active',
+      jTabContent: '.tabContent',
+      jUI: true,
+      jUIEffect: 'slide',
+      jAnimationDuration: 200
+  });
+```
