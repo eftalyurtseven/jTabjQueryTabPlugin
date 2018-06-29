@@ -81,10 +81,10 @@ You can use jQuery UI Effects, jUI set to TRUE and choise your effect!
 ### Upload the data with AJAX!
 You can use AJAX load. Change HTML Template;
 Set li attribute data-ajax="true" and fill the ajax data!
-1.Ajax Type: post/get
-2.Ajax URI: someurl.html / someurl.php etc.
-3.Loaded: false - default
-4.Ajax Data: Send data from file
+* Ajax Type: post/get
+* Ajax URI: someurl.html / someurl.php etc.
+* Loaded: false - default
+* Ajax Data: Send data from file
 
 ```html
         <div id="tabContainer">
