@@ -41,6 +41,8 @@ You can use;
 ```
 
 ### Basic Usage
+![Jquery UI Effect Usage](http://e-yurtseven.net/jTab/bounce.gif)
+
 ```javascript
   $("#tabContainer").jTab({
       jTab: '.tabTitle ul', 
