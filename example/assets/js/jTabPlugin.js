@@ -23,8 +23,6 @@
             jUIEffect: '',
             jAnimation: 'fade',
             jAnimationDuration: 300,
-            jSlideWidth: '',
-            jSlideHeight: ''
 
         }, options );
 
