@@ -1,0 +1,68 @@
+body {
+    background: #e9ebee;
+    font: 13px Arial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both
+}
+
+/* Plugin StyleSheets */
+
+#tabContainer {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.tabTitle {
+    width: 20%;
+    float: left;
+}
+
+.tabTitle ul li {
+    display: block;
+}
+
+.tabTitle ul li a {
+    display: block;
+    padding: 10px;
+    background: #eee;
+    color: #aaa;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.tabTitle ul li.active a {
+    border-right: none;
+    background: #fff;
+}
+
+.tabTitle ul li:last-child a {
+    border-bottom: 1px solid #ddd !important;
+}
+
+#tabContents {
+    width: 80%;
+    float: right;
+}
+
+.tabContent {
+    margin-top: 1px;
+    padding: 10px;
+    background: #fff;
+    height: 50vh;
+}
+
