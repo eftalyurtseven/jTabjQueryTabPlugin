@@ -3,6 +3,43 @@ You can use;
 1. jQuery UI Animations
 2. jQuery Animations
 
+### Basic HTML Template
+```html
+        <div id="tabContainer">
+
+            <div class="tabTitle">
+                <ul>
+                    <li><a href="#">First Section</a></li>
+                    <li><a href="#">Second Section</a></li>
+                    <li><a href="#">Third Section [ AJAX ]</a></li>
+                    <li><a href="#">Fourth Section</a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+
+            <div id="tabContents">
+                <div class="tabContent">
+                    First Section
+                </div>
+
+                <div class="tabContent">
+                    Second Section
+                </div>
+
+                <div class="tabContent">
+                    Third Section [ AJAX ]
+                </div>
+
+                <div class="tabContent">
+                    Fourth Section
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+```
+
 ### Basic Usage
 ```javascript
   $("#tabContainer").jTab({
@@ -41,3 +78,4 @@ You can use jQuery UI Effects, jUI set to TRUE and choise your effect!
       jAnimationDuration: 200
   });
 ```
+### 
