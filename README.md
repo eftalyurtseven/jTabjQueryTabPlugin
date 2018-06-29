@@ -37,7 +37,7 @@ You can use jQuery UI Effects, jUI set to TRUE and choise your effect!
       jActiveClass: 'active',
       jTabContent: '.tabContent',
       jUI: true,
-      jUIEffect: 'slide',
+      jUIEffect: 'slide', // bounce, shake etc.
       jAnimationDuration: 200
   });
 ```
