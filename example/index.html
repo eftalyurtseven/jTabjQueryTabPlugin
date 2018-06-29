@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jTab Plugin - jQuery Tab Plugin with AJAX</title>
+
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+</head>
+<body>
+
+    <div id="tabContainer">
+
+        <div class="tabTitle">
+            <ul>
+                <li ><a class="" href="#">First Section</a></li>
+                <li><a href="#">Second Section</a></li>
+                <li data-ajax="true" data-ajaxType="post" data-ajaxURI="ajax.php" data-loaded="false" data-ajaxData="data=data"><a href="#">Third Section [ AJAX ]</a></li>
+                <li><a href="#">Fourth Section</a></li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+
+        <div id="tabContents">
+            <div class="tabContent">
+                First Section
+            </div>
+
+            <div class="tabContent">
+                Second Section
+            </div>
+
+            <div class="tabContent">
+                Third Section [ AJAX ]
+            </div>
+
+            <div class="tabContent">
+                Fourth Section
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jTabPlugin.js"></script>
+    <script>
+        jQuery(function(){
+
+            $("#tabContainer").jTab({
+                jTab: '.tabTitle ul',
+                jTabElem: 'li',
+                jActiveClass: 'active',
+                jTabContent: '.tabContent',
+                jAnimationDuration: 200,
+                jSlideWidth: $(".tabContent").width()
+            });
+
+        }, jQuery);
+    </script>
+
+</body>
+</html>
