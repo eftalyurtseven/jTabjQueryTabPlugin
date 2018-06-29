@@ -66,6 +66,8 @@ You can use;
   });
 ```
 ### jQuery UI Effect Usage
+![ Image of UIEffect ]
+(http://e-yurtseven.net/jTab/bounce.gif)
 You can use jQuery UI Effects, jUI set to TRUE and choise your effect!
 ```javascript
   $("#tabContainer").jTab({
