@@ -12,4 +12,19 @@ You can use;
       jTabContent: '.tabContent'
   });
 ```
-
+### All Options
+```javascript
+  $("#tabContainer").jTab({
+        jTab: 'ul',
+        jTabElem: 'li a',
+        jClosestElem: '',
+        jActiveClass: 'active',
+        jActiveElem: 0,
+        jTabContent: '.tabContent',
+        jTabEvent: 'click',
+        jUI: false,
+        jUIEffect: '',
+        jAnimation: 'fade',
+        jAnimationDuration: 300,
+  });
+```
