@@ -121,5 +121,5 @@ Set li attribute data-ajax="true" and fill the ajax data!
 
         </div>
 ```
-
+You can use with jTab basic usage!
 
