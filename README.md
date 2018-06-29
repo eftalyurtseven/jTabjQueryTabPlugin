@@ -41,7 +41,7 @@ You can use;
 ```
 
 ### Basic Usage
-![Jquery UI Effect Usage](http://e-yurtseven.net/jTab/bounce.gif)
+![Jquery UI Effect Usage](http://e-yurtseven.net/jTab/basic.gif)
 
 ```javascript
   $("#tabContainer").jTab({
