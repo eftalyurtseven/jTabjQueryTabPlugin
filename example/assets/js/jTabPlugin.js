@@ -1,3 +1,4 @@
+/**
  * @author: Eftal Yurtseven
  * @name: jTab - jQuery Tab Plugin with AJAX
  * @version: 1.0 - 22.06.2018
